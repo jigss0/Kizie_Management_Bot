@@ -217,7 +217,7 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text=gs(chat.id, "add_bot_to_group_button"), url="t.me/Siestaxbot?startgroup=new"),
+                                text=gs(chat.id, "add_bot_to_group_button"), url="t.me/Kxtest_Bot?startgroup=new"),
                         ]
                     ]
                 ),
@@ -382,15 +382,15 @@ def siesta_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="Admins", callback_data="siesta_admin"),
+                        InlineKeyboardButton(text="*ᴀᴅᴍɪɴs*", callback_data="siesta_admin"),
                         InlineKeyboardButton(text=gs(chat.id, "notes_button"), callback_data="siesta_notes"),
                     ],
                     [
                         InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), callback_data="siesta_support"),
-                        InlineKeyboardButton(text="Credits", callback_data="siesta_credit"),
+                        InlineKeyboardButton(text="*ᴄʀᴇᴅɪᴛs*", callback_data="siesta_credit"),
                     ],
                     [
-                        InlineKeyboardButton(text=gs(chat.id, "source_button"), url="https://github.com/shiinobu/SiestaRobot"),
+                        InlineKeyboardButton(text=gs(chat.id, "source_button"), url="https://telegra.ph/file/ae0b63770eb7c99997354.mp4"),
                     ],
                     [
                     InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_back"),
@@ -417,7 +417,7 @@ def siesta_about_callback(update, context):
                             InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/Siestaxbot?startgroup=new"),
+                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/Kxtest_Bot?startgroup=new"),
                         ]
                     ]
                 ),
@@ -527,7 +527,7 @@ def Source_about_callback(update, context):
                             InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/Siestaxbot?startgroup=new"),
+                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/Kxtest_Bot?startgroup=new"),
                         ]
                     ]
                 ),
