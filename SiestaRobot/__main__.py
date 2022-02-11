@@ -382,15 +382,15 @@ def siesta_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="*ᴀᴅᴍɪɴs*", callback_data="siesta_admin"),
+                        InlineKeyboardButton(text="ᴀᴅᴍɪɴs", callback_data="siesta_admin"),
                         InlineKeyboardButton(text=gs(chat.id, "notes_button"), callback_data="siesta_notes"),
                     ],
                     [
                         InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), callback_data="siesta_support"),
-                        InlineKeyboardButton(text="*ᴄʀᴇᴅɪᴛs*", callback_data="siesta_credit"),
+                        InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛs", callback_data="siesta_credit"),
                     ],
                     [
-                        InlineKeyboardButton(text=gs(chat.id, "source_button"), url="https://telegra.ph/file/ae0b63770eb7c99997354.mp4"),
+                        InlineKeyboardButton(text=gs(chat.id, "source_button"), url="https://telegra.ph/file/948e078eb2147b2d67bcc.mp4"),
                     ],
                     [
                     InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_back"),
