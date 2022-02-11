@@ -477,10 +477,10 @@ def siesta_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="◦•●◉✿ ᴠᴀɪɴ ✿◉●•◦", url="https://t.me/IMANUEL_MANNY"),
+                        InlineKeyboardButton(text="╰☆☆ ᴏᴡɴᴇʀ ☆☆╮", url="https://t.me/IMANUEL_MANNY"),
                     ],
                     [
-                        InlineKeyboardButton(text="╰☆☆ ᴀᴅɪɪ ☆☆╮", url="https://t.me/IMANUEL_ADII"),
+                        InlineKeyboardButton(text="╰☆☆ ᴄʜᴜᴍᴛɪʏᴀ ☆☆╮", url="https://t.me/IMANUEL_ADII"),
                     ],
                     [
                         InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_"),
