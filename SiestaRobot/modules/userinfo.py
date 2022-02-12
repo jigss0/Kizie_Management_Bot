@@ -257,21 +257,21 @@ def info(update: Update, context: CallbackContext):
     rep = message.reply_text("<code>Getting info...</code>", parse_mode=ParseMode.HTML)
 
     text = (
-        f"╔═━「<b> Appraisal results:</b> 」\n"
-        f"✪ ID: <code>{user.id}</code>\n"
-        f"✪ First Name: {html.escape(user.first_name)}"
+        f"╔═━「<b> ᴀᴘᴘʀᴀɪsᴀʟ ʀᴇsᴜʟᴛs:</b> 」\n"
+        f"➣ ɪᴅ: <code>{user.id}</code>\n"
+        f"➣ ғɪʀsᴛ ɴᴀᴍᴇ: {html.escape(user.first_name)}"
     )
 
     if user.last_name:
-        text += f"\n✪ Last Name: {html.escape(user.last_name)}"
+        text += f"\n➣ ʟᴀsᴛ ɴᴀᴍᴇ: {html.escape(user.last_name)}"
 
     if user.username:
-        text += f"\n✪ Username: @{html.escape(user.username)}"
+        text += f"\n➣ ᴜsᴇʀɴᴀᴍᴇ: @{html.escape(user.username)}"
 
-    text += f"\n✪ Userlink: {mention_html(user.id, 'link')}"
+    text += f"\n➣ ᴜsᴇʀʟɪɴᴋ: {mention_html(user.id, 'link')}"
 
     if chat.type != "private" and user_id != bot.id:
-        _stext = "\n✪ Presence: <code>{}</code>"
+        _stext = "\n➣ ᴘʀᴇsᴇɴᴄᴇ: <code>{}</code>"
 
         afk_st = is_afk(user.id)
         if afk_st:
@@ -319,7 +319,7 @@ def info(update: Update, context: CallbackContext):
         text += "\n\nThe Disaster level of this person is 'Soldier'."
         disaster_level_present = True
     elif user.id == 1829047705:
-         text += "\n\nOwner Of A Bot. Queen Of @excrybaby. Bot Name Inspired From 'JoJo'."
+         text += "\n\nOwner Of Bot. GF Of @IMANUEL_MANNY. Bot Name Inspired From 'SECRET 💜🌸'."
          disaster_level_present = True
 
     try:
@@ -356,9 +356,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/KennedyProject/44"),
+                                "ʜᴇᴀʟᴛʜ", url="https://t.me/Kiziemusic"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/KennedyProject/43")
+                                "ᴅɪsᴀsᴛᴇʀ", url="https://t.me/kizie_VCsupport")
                         ],
                     ]
                 ),
@@ -374,9 +374,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/KennedyProject/44"),
+                                "ʜᴇᴀʟᴛʜ", url="https://t.me/Kiziemusic"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/KennedyProject/43")
+                                "ᴅɪsᴀsᴛᴇʀ", url="https://t.me/kizie_VCsupport")
                         ],
                     ]
                 ),
@@ -448,9 +448,9 @@ def set_about_me(update: Update, context: CallbackContext):
 
 @sudo_plus
 def stats(update: Update, context: CallbackContext):
-    stats = "<b>╔═━「 Current Siesta Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
+    stats = "<b>╔═━「 Current Kizie Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
-    result += "\n<b>╘═━「 Powered By Shiinobu 」</b>"
+    result += "\n<b>╘═━「 Powered By MANNY-❤️️ 」</b>"
     update.effective_message.reply_text(
         result,
         parse_mode=ParseMode.HTML, 
