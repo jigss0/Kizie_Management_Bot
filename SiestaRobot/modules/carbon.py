@@ -24,7 +24,7 @@ async def carbon_func(_, message):
     carbon.close()
 
 
-MEMEK = "https://telegra.ph/file/31c56fb53884915fec558.jpg"
+MEMEK = "https://telegra.ph/file/6771f4f67dc83a6d3a8c8.jpg"
 
 @pbot.on_message(filters.command("repo"))
 async def repo(_, message):
@@ -32,21 +32,21 @@ async def repo(_, message):
         photo=MEMEK,
         caption=f"""✨ **ʜᴇʏ ɪ'ᴍ ᴋɪᴢɪᴇ ʀᴏʙᴏᴛ** ✨ 
 
-**Owner repo : [Vain](https://t.me/IMANUEL_MANNY)**
-**Python Version :** `{y()}`
-**Library Version :** `{o}`
-**Telethon Version :** `{s}`
-**Pyrogram Version :** `{z}`
+**ᴏᴡɴᴇʀ ʀᴇᴘᴏ : [ᴍᴀɴɴʏ ➖🇮🇳 </>](https://t.me/IMANUEL_MANNY)**
+**ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{y()}`
+**ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{o}`
+**ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{s}`
+**ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{z}`
 
-**Create your own with click button bellow.**
+**ᴡᴀɴᴛ ʀᴇᴘᴏ ᴛʜᴀɴ ᴋɪɴᴅʟʏ ᴄᴏɴᴛᴀᴄᴛ ʙᴇʟᴏᴡ.**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Repo", url="https://github.com/shiinobu/SiestaRobot"), 
+                        "ᴏᴡɴᴇʀ {ʀᴇᴘᴏ}", url="https://t.me/IMANUEL_MANNY"), 
                     InlineKeyboardButton(
-                        "Support", url="https://t.me/Kiziemusic")
+                        "sᴜᴘᴘᴏʀᴛ", url="https://t.me/Kiziemusic")
                 ]
             ]
         )
