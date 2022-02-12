@@ -99,7 +99,7 @@ async def telegrap(event):
                     buttons=[
                         [
                             types.KeyboardButtonUrl(
-                                "➡ View Telegraph", "https://telegra.ph/{}".format(response["path"], ms)
+                                "➡ ᴠɪᴇᴡ ᴛᴇʟᴇɢʀᴀᴘʜ", "https://telegra.ph/{}".format(response["path"], ms)
                             )
                         ]
                     ]
