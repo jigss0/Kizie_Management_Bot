@@ -24,7 +24,7 @@ async def carbon_func(_, message):
     carbon.close()
 
 
-MEMEK = "https://telegra.ph/file/b2def8890efa4359b6dd3.jpg"
+MEMEK = "https://telegra.ph/file/622643d799c259ab09123.jpg"
 
 @pbot.on_message(filters.command("repo"))
 async def repo(_, message):
